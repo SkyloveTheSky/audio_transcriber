@@ -24,7 +24,7 @@ def run_app():
     status_lbl = ttk.Label(frame, textvariable=status_var, foreground="#2563eb")
     status_lbl.pack(anchor="w", pady=(0,12))
 
-    btn = ttk.Button(frame, text="🎤 Parler")
+    btn = ttk.Button(frame, text="Parler")
     btn.pack(anchor="w")
 
     ttk.Separator(frame).pack(fill="x", pady=12)
