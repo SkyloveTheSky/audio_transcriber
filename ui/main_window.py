@@ -5,7 +5,7 @@ from app.controller import Controller
 
 def run_app():
     root = tk.Tk()
-    root.title("Assistante vocale — Python + Tkinter (no-build)")
+    root.title("Assistante vocale")
     root.geometry("560x520")
 
     style = ttk.Style()
