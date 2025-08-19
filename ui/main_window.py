@@ -17,7 +17,7 @@ def run_app():
     frame = ttk.Frame(root, padding=12)
     frame.pack(fill="both", expand=True)
 
-    title = ttk.Label(frame, text="Assistante vocale (Tkinter)", font=("Segoe UI", 14, "bold"))
+    title = ttk.Label(frame, text="Assistante vocale", font=("Segoe UI", 14, "bold"))
     title.pack(anchor="w", pady=(0,8))
 
     status_var = tk.StringVar(value="Prêt")
